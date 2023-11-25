@@ -27,9 +27,6 @@ export default function Hero() {
           <Button variant={"default"} className="bg-blue-600 hover:bg-blue-400 text-white font-semibold ">
             About me
           </Button>
-          <Button variant={"default"} className="bg-blue-600 hover:bg-blue-400 text-white font-semibold ">
-            Resume
-          </Button>
         </div>
       </div>
     </div>

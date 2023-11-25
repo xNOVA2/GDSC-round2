@@ -11,15 +11,12 @@ export default function Navbar() {
       </div>
 
       <ul className="hidden lg:flex lg:justify-between lg:gap-3 ">
-        <li className="font-semibold text-md cursor-pointer">Home</li>
-        <li className="font-semibold text-md cursor-pointer">Service</li>
-        <li className="font-semibold text-md cursor-pointer">Experience</li>
-        <li className="font-semibold text-md cursor-pointer ">Projects</li>
+        <li className="font-semibold text-md cursor-pointer hover:text-blue-600 ">Home</li>
+        <li className="font-semibold text-md cursor-pointer hover:text-blue-600">Service</li>
+        <li className="font-semibold text-md cursor-pointer hover:text-blue-600">Experience</li>
+        <li className="font-semibold text-md cursor-pointer hover:text-blue-600 ">Projects</li>
       </ul>
 
-      <div className="hidden lg:block">
-      <Button variant={"default"} className="bg-blue-600 hover:bg-blue-400 text-white font-semibold">Resume</Button>
-      </div>
 
       <Sidebar />
     </nav>
